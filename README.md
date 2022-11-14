@@ -2,6 +2,8 @@
 
 `explode-image` is a command line tool used to split image atlases into individual images.
 
+Note: I quickly wrote this as a tool in the middle of a project. I have not tested padding / offset yet. It's on my todo list.
+
 ## Usage
 ### Defaults:
 ```
