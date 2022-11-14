@@ -1,0 +1,34 @@
+[package]
+authors     = ["Laocoon <laocoon7@gmail.com>"]
+description = "Split atlas images into separate images named by index"
+edition     = "2021"
+homepage    = "https://github.com/Laocoon7/explode-image"
+license     = "BlueOak-1.0.0"
+name        = "explode-image"
+readme      = "README.md"
+repository  = "https://github.com/Laocoon7/explode-image"
+version     = "0.1.0"
+categories  = ["Encoding", "Game development", "Graphics", "Multimedia"]
+keywords    = ["split", "atlas", "tileset", "tilemap", "image"]
+resolver    = "2"
+
+#################################
+#########       CLI
+#################################
+[dependencies.clap]
+features = ["derive"]
+version = "4.0.23"
+
+#################################
+#########       Image Processing
+#################################
+[dependencies.image]
+features = []
+version = "0.24.5"
+
+#################################
+#########       Error
+#################################
+[dependencies.thiserror]
+features = []
+version = "1.0.37"
